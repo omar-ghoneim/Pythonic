@@ -1,0 +1,52 @@
+.search-box {
+    width: 600px;
+    background: #fff;
+    margin: 50px auto 0;
+    border-radius: 5px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+input {
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.result-box li {
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.result-box li:hover {
+    background: #e9f3ff;
+}
+
+.section {
+    background-color: #262a2f;
+    color: #333;
+    padding: 10px;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+button .bi {
+    width: 25px;
+    color: #555;
+    font-size: 22px;
+    cursor: pointer;
+}
